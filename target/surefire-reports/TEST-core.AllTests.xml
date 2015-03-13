@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="14" name="core.AllTests" time="0.132" errors="0" skipped="0">
+<testsuite tests="25" failures="14" name="core.AllTests" time="0.106" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\java\jdk1.8.0_25\jre\bin"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 0 : exp: learn2test.net; act: learn2test.net]" time="0.016"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 1 : exp: Learn2test.net; act: learn2test.net]" time="0.011">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 0 : exp: learn2test.net; act: learn2test.net]" time="0.008"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 1 : exp: Learn2test.net; act: learn2test.net]" time="0.01">
     <failure message="FAILED expected:&lt;[L]earn2test.net&gt; but was:&lt;[l]earn2test.net&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[L]earn2test.net&gt; but was:&lt;[l]earn2test.net&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -119,7 +119,7 @@
     <system-out>Test Case: TC-001.02 Expected Result: Learn2test.net Actual Result: learn2test.net
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 2 : exp: Google; act: Google]" time="0.002"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 2 : exp: Google; act: Google]" time="0.001"/>
   <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 3 : exp: google; act: Google]" time="0">
     <failure message="FAILED expected:&lt;[g]oogle&gt; but was:&lt;[G]oogle&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[g]oogle&gt; but was:&lt;[G]oogle&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
@@ -174,8 +174,8 @@
     <system-out>Test Case: TC-001.04 Expected Result: google Actual Result: Google
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 4 : exp: www.alegro.com; act: www.alegro.com]" time="0.002"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 5 : exp: www.alegro.net; act: www.alegro.com]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 4 : exp: www.alegro.com; act: www.alegro.com]" time="0"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 5 : exp: www.alegro.net; act: www.alegro.com]" time="0.004">
     <failure message="FAILED expected:&lt;www.alegro.[net]&gt; but was:&lt;www.alegro.[com]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;www.alegro.[net]&gt; but was:&lt;www.alegro.[com]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -229,7 +229,7 @@
     <system-out>Test Case: TC-001.06 Expected Result: www.alegro.net Actual Result: www.alegro.com
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 6 : exp: Welcome to Costco Wholesale; act: Welcome to Costco Wholesale]" time="0.001"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 6 : exp: Welcome to Costco Wholesale; act: Welcome to Costco Wholesale]" time="0.003"/>
   <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 7 : exp: Costco; act: Welcome to Costco Wholesale]" time="0.001">
     <failure message="FAILED expected:&lt;[Costco]&gt; but was:&lt;[Welcome to Costco Wholesale]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[Costco]&gt; but was:&lt;[Welcome to Costco Wholesale]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
@@ -339,8 +339,8 @@
     <system-out>Test Case: TC-001.10 Expected Result: BCD Actual Result: BCD Companies
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 10 : exp: cab.com - Taxi Resources and Information.; act: cab.com - Taxi Resources and Information.]" time="0.021"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 11 : exp: cab.com; act: cab.com - Taxi Resources and Information.]" time="0.003">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 10 : exp: cab.com - Taxi Resources and Information.; act: cab.com - Taxi Resources and Information.]" time="0"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 11 : exp: cab.com; act: cab.com - Taxi Resources and Information.]" time="0.001">
     <failure message="FAILED expected:&lt;cab.com[]&gt; but was:&lt;cab.com[ - Taxi Resources and Information.]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;cab.com[]&gt; but was:&lt;cab.com[ - Taxi Resources and Information.]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -394,7 +394,7 @@
     <system-out>Test Case: TC-001.12 Expected Result: cab.com Actual Result: cab.com - Taxi Resources and Information.
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 12 : exp: BBC - Homepage; act: BBC - Homepage]" time="0"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 12 : exp: BBC - Homepage; act: BBC - Homepage]" time="0.001"/>
   <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 13 : exp: BBC; act: BBC - Homepage]" time="0.001">
     <failure message="FAILED expected:&lt;BBC[]&gt; but was:&lt;BBC[ - Homepage]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;BBC[]&gt; but was:&lt;BBC[ - Homepage]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
@@ -449,8 +449,8 @@
     <system-out>Test Case: TC-001.14 Expected Result: BBC Actual Result: BBC - Homepage
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 14 : exp: EVE LOM; act: EVE LOM]" time="0"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 15 : exp: evelom; act: EVE LOM]" time="0.064">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 14 : exp: EVE LOM; act: EVE LOM]" time="0.001"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 15 : exp: evelom; act: EVE LOM]" time="0.003">
     <failure message="FAILED expected:&lt;[evelom]&gt; but was:&lt;[EVE LOM]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[evelom]&gt; but was:&lt;[EVE LOM]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -504,7 +504,7 @@
     <system-out>Test Case: TC-001.16 Expected Result: evelom Actual Result: EVE LOM
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 16 : exp: Offshore Investment Accounts | The LOM Group; act: Offshore Investment Accounts | Open Online Trading | The LOM Group]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 16 : exp: Offshore Investment Accounts | The LOM Group; act: Offshore Investment Accounts | Open Online Trading | The LOM Group]" time="0.002">
     <failure message="FAILED expected:&lt;...vestment Accounts | []The LOM Group&gt; but was:&lt;...vestment Accounts | [Open Online Trading | ]The LOM Group&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;...vestment Accounts | []The LOM Group&gt; but was:&lt;...vestment Accounts | [Open Online Trading | ]The LOM Group&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -557,7 +557,7 @@
     <system-out>Test Case: TC-001.17 Expected Result: Offshore Investment Accounts | The LOM Group Actual Result: Offshore Investment Accounts | Open Online Trading | The LOM Group
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 17 : exp: www.Lom; act: Offshore Investment Accounts | Open Online Trading | The LOM Group]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 17 : exp: www.Lom; act: Offshore Investment Accounts | Open Online Trading | The LOM Group]" time="0.027">
     <failure message="FAILED expected:&lt;[www.Lom]&gt; but was:&lt;[Offshore Investment Accounts | Open Online Trading | The LOM Group]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[www.Lom]&gt; but was:&lt;[Offshore Investment Accounts | Open Online Trading | The LOM Group]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -610,8 +610,8 @@
     <system-out>Test Case: TC-001.18 Expected Result: www.Lom Actual Result: Offshore Investment Accounts | Open Online Trading | The LOM Group
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 18 : exp: TOOL; act: TOOL]" time="0"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 19 : exp: tool; act: TOOL]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 18 : exp: TOOL; act: TOOL]" time="0.001"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 19 : exp: tool; act: TOOL]" time="0">
     <failure message="FAILED expected:&lt;[tool]&gt; but was:&lt;[TOOL]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[tool]&gt; but was:&lt;[TOOL]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -664,8 +664,8 @@
     <system-out>Test Case: TC-001.20 Expected Result: tool Actual Result: TOOL
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 20 : exp: BCD Companies; act: BCD Companies]" time="0.001"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 21 : exp: BCD COMPANIES; act: BCD Companies]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 20 : exp: BCD Companies; act: BCD Companies]" time="0"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 21 : exp: BCD COMPANIES; act: BCD Companies]" time="0.004">
     <failure message="FAILED expected:&lt;BCD C[OMPANIES]&gt; but was:&lt;BCD C[ompanies]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;BCD C[OMPANIES]&gt; but was:&lt;BCD C[ompanies]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -718,7 +718,7 @@
     <system-out>Test Case: TC-001.22 Expected Result: BCD COMPANIES Actual Result: BCD Companies
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 22 : exp: MVN REPOSITORY; act: Maven Repository: Search/Browse/Explore]" time="0.002">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 22 : exp: MVN REPOSITORY; act: Maven Repository: Search/Browse/Explore]" time="0.032">
     <failure message="FAILED expected:&lt;M[VN REPOSITORY]&gt; but was:&lt;M[aven Repository: Search/Browse/Explore]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;M[VN REPOSITORY]&gt; but was:&lt;M[aven Repository: Search/Browse/Explore]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -771,7 +771,7 @@
     <system-out>Test Case: TC-001.23 Expected Result: MVN REPOSITORY Actual Result: Maven Repository: Search/Browse/Explore
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 23 : exp: MVN Repository; act: Maven Repository: Search/Browse/Explore]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 23 : exp: MVN Repository; act: Maven Repository: Search/Browse/Explore]" time="0.004">
     <failure message="FAILED expected:&lt;M[VN Repository]&gt; but was:&lt;M[aven Repository: Search/Browse/Explore]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;M[VN Repository]&gt; but was:&lt;M[aven Repository: Search/Browse/Explore]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:36)
@@ -824,5 +824,5 @@
     <system-out>Test Case: TC-001.24 Expected Result: MVN Repository Actual Result: Maven Repository: Search/Browse/Explore
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 24 : exp: Maven Repository: Search/Browse/Explore; act: Maven Repository: Search/Browse/Explore]" time="0"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 24 : exp: Maven Repository: Search/Browse/Explore; act: Maven Repository: Search/Browse/Explore]" time="0.001"/>
 </testsuite>
